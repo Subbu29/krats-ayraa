@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5502CC761E71A812003BB91A /* SafetyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC741E71A812003BB91A /* SafetyCenterViewController.m */; };
+		5502CC771E71A812003BB91A /* SafetyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502CC751E71A812003BB91A /* SafetyCenterViewController.xib */; };
+		5502CC7B1E71A841003BB91A /* EmergencyContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC791E71A841003BB91A /* EmergencyContactsViewController.m */; };
+		5502CC851E71AA4F003BB91A /* EmergencyContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC831E71AA4F003BB91A /* EmergencyContactsTableViewCell.m */; };
+		5502CC861E71AA4F003BB91A /* EmergencyContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502CC841E71AA4F003BB91A /* EmergencyContactsTableViewCell.xib */; };
+		5502CC8A1E73E435003BB91A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC881E73E435003BB91A /* UserDetailsViewController.m */; };
+		5502CC8B1E73E435003BB91A /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502CC891E73E435003BB91A /* UserDetailsViewController.xib */; };
+		5502CC901E756768003BB91A /* FiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC8E1E756768003BB91A /* FiltersViewController.m */; };
+		5502CC911E756768003BB91A /* FiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502CC8F1E756768003BB91A /* FiltersViewController.xib */; };
+		5502CC961E75BD8B003BB91A /* SOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC941E75BD8B003BB91A /* SOSViewController.m */; };
+		5502CC971E75BD8B003BB91A /* SOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502CC951E75BD8B003BB91A /* SOSViewController.xib */; };
+		5502CC9A1E76F196003BB91A /* LocationModalObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502CC991E76F196003BB91A /* LocationModalObject.m */; };
+		550519EE1EED1FC200CC058A /* NotifcationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550519ED1EED1FC200CC058A /* NotifcationsViewController.m */; };
+		550519F21EED230C00CC058A /* NotifcationsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 550519F01EED230C00CC058A /* NotifcationsTableViewCell.m */; };
+		550519F31EED230C00CC058A /* NotifcationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550519F11EED230C00CC058A /* NotifcationsTableViewCell.xib */; };
+		550C21BB1E6DD95C00BD2EB7 /* ContactAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C21B91E6DD95C00BD2EB7 /* ContactAdminViewController.m */; };
+		550C21BC1E6DD95C00BD2EB7 /* ContactAdminViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550C21BA1E6DD95C00BD2EB7 /* ContactAdminViewController.xib */; };
+		5516D8641F1BBCFB00B697A8 /* UserLocationDataOBj.m in Sources */ = {isa = PBXBuildFile; fileRef = 5516D8631F1BBCFB00B697A8 /* UserLocationDataOBj.m */; };
+		55196D4C1F151694000CC205 /* MedicalOptionsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55196D4A1F151694000CC205 /* MedicalOptionsCollectionViewCell.m */; };
+		55196D4D1F151694000CC205 /* MedicalOptionsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55196D4B1F151694000CC205 /* MedicalOptionsCollectionViewCell.xib */; };
+		552F04841E865ECC006AB919 /* LoginDataModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 552F04831E865ECC006AB919 /* LoginDataModal.m */; };
+		552F04871E86E774006AB919 /* HospitalsListDataModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 552F04861E86E774006AB919 /* HospitalsListDataModal.m */; };
+		5535399E1EA0BFC9000EBE2E /* HospitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535399C1EA0BFC8000EBE2E /* HospitalDetailViewController.m */; };
+		5535399F1EA0BFC9000EBE2E /* HospitalDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5535399D1EA0BFC8000EBE2E /* HospitalDetailViewController.xib */; };
+		553539A31EA0C149000EBE2E /* HospitalInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 553539A11EA0C149000EBE2E /* HospitalInfoTableViewCell.m */; };
+		553539A41EA0C149000EBE2E /* HospitalInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553539A21EA0C149000EBE2E /* HospitalInfoTableViewCell.xib */; };
+		553539A81EA0C15D000EBE2E /* HospitalAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 553539A61EA0C15D000EBE2E /* HospitalAddressTableViewCell.m */; };
+		553539A91EA0C15D000EBE2E /* HospitalAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553539A71EA0C15D000EBE2E /* HospitalAddressTableViewCell.xib */; };
+		553539AD1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 553539AB1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.m */; };
+		553539AE1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553539AC1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.xib */; };
+		553539B21EA0C194000EBE2E /* HospitalHighlightsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 553539B01EA0C194000EBE2E /* HospitalHighlightsTableViewCell.m */; };
+		553539B31EA0C194000EBE2E /* HospitalHighlightsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553539B11EA0C194000EBE2E /* HospitalHighlightsTableViewCell.xib */; };
+		5537422B1E45B90C0048C59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537422A1E45B90C0048C59A /* main.m */; };
+		5537422E1E45B90C0048C59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537422D1E45B90C0048C59A /* AppDelegate.m */; };
+		553742311E45B90C0048C59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553742301E45B90C0048C59A /* ViewController.m */; };
+		553742341E45B90C0048C59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553742321E45B90C0048C59A /* Main.storyboard */; };
+		553742361E45B90C0048C59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553742351E45B90C0048C59A /* Assets.xcassets */; };
+		553742391E45B90C0048C59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553742371E45B90C0048C59A /* LaunchScreen.storyboard */; };
+		553742441E45B90C0048C59A /* TapOnEmergencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 553742431E45B90C0048C59A /* TapOnEmergencyTests.m */; };
+		5537424F1E45B90C0048C59A /* TapOnEmergencyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537424E1E45B90C0048C59A /* TapOnEmergencyUITests.m */; };
+		5537425F1E460A190048C59A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537425E1E460A190048C59A /* SignUpViewController.m */; };
+		553742621E460A290048C59A /* ForgetPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553742611E460A290048C59A /* ForgetPassWordViewController.m */; };
+		553742641E472A730048C59A /* App tray logo icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 553742631E472A730048C59A /* App tray logo icon.png */; };
+		553742691E4737680048C59A /* TOEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 553742681E4737680048C59A /* TOEConstants.m */; };
+		5537426D1E4758FC0048C59A /* HospitalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537426C1E4758FC0048C59A /* HospitalListViewController.m */; };
+		553742711E47599E0048C59A /* CardsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537426F1E47599E0048C59A /* CardsTableViewCell.m */; };
+		553742721E47599E0048C59A /* CardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553742701E47599E0048C59A /* CardsTableViewCell.xib */; };
+		553742761E4783C80048C59A /* SideBarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 553742751E4783C80048C59A /* SideBarMenu.m */; };
+		553742781E4783D50048C59A /* SideBarMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553742771E4783D50048C59A /* SideBarMenu.xib */; };
+		5537427B1E47893D0048C59A /* SideBarMenuModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537427A1E47893D0048C59A /* SideBarMenuModal.m */; };
+		5537427F1E47909E0048C59A /* SideBarMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537427D1E47909E0048C59A /* SideBarMenuTableViewCell.m */; };
+		553742801E47909E0048C59A /* SideBarMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5537427E1E47909E0048C59A /* SideBarMenuTableViewCell.xib */; };
+		554B4D7F1F08013B00486F71 /* NotificationsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B4D7D1F08013B00486F71 /* NotificationsDetailViewController.m */; };
+		554B4D801F08013B00486F71 /* NotificationsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554B4D7E1F08013B00486F71 /* NotificationsDetailViewController.xib */; };
+		554B4DB81F0B7A8C00486F71 /* Blood Bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DA51F0B7A8C00486F71 /* Blood Bank.png */; };
+		554B4DB91F0B7A8C00486F71 /* cardiology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DA61F0B7A8C00486F71 /* cardiology.png */; };
+		554B4DBA1F0B7A8C00486F71 /* Chest Specalist.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DA71F0B7A8C00486F71 /* Chest Specalist.png */; };
+		554B4DBB1F0B7A8C00486F71 /* Dentistry.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DA81F0B7A8C00486F71 /* Dentistry.png */; };
+		554B4DBC1F0B7A8C00486F71 /* Dermatology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DA91F0B7A8C00486F71 /* Dermatology.png */; };
+		554B4DBD1F0B7A8C00486F71 /* ENT.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAA1F0B7A8C00486F71 /* ENT.png */; };
+		554B4DBE1F0B7A8C00486F71 /* Gastrointestinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAB1F0B7A8C00486F71 /* Gastrointestinal.png */; };
+		554B4DBF1F0B7A8C00486F71 /* General Medicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAC1F0B7A8C00486F71 /* General Medicine.png */; };
+		554B4DC01F0B7A8C00486F71 /* Gynecology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAD1F0B7A8C00486F71 /* Gynecology.png */; };
+		554B4DC11F0B7A8C00486F71 /* IVF.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAE1F0B7A8C00486F71 /* IVF.png */; };
+		554B4DC21F0B7A8C00486F71 /* Nephrology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DAF1F0B7A8C00486F71 /* Nephrology.png */; };
+		554B4DC31F0B7A8C00486F71 /* Neurology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB01F0B7A8C00486F71 /* Neurology.png */; };
+		554B4DC41F0B7A8C00486F71 /* Obstetrics.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB11F0B7A8C00486F71 /* Obstetrics.png */; };
+		554B4DC51F0B7A8C00486F71 /* opthalmology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB21F0B7A8C00486F71 /* opthalmology.png */; };
+		554B4DC61F0B7A8C00486F71 /* Orthopedics.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB31F0B7A8C00486F71 /* Orthopedics.png */; };
+		554B4DC71F0B7A8C00486F71 /* Pathology.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB41F0B7A8C00486F71 /* Pathology.png */; };
+		554B4DC81F0B7A8C00486F71 /* Pediatrician.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB51F0B7A8C00486F71 /* Pediatrician.png */; };
+		554B4DC91F0B7A8C00486F71 /* Psychiatry 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB61F0B7A8C00486F71 /* Psychiatry 1.png */; };
+		554B4DCA1F0B7A8C00486F71 /* Psychiatry 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DB71F0B7A8C00486F71 /* Psychiatry 2.png */; };
+		554B4DCE1F0B869C00486F71 /* APILoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B4DCD1F0B869C00486F71 /* APILoaderView.m */; };
+		554B4DD01F0BB3CA00486F71 /* EmergencyContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554B4DCF1F0BB3CA00486F71 /* EmergencyContactsViewController.xib */; };
+		55523A461F4DB83C001860EA /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55523A441F4DB83C001860EA /* UserProfileViewController.m */; };
+		55523A471F4DB83C001860EA /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55523A451F4DB83C001860EA /* UserProfileViewController.xib */; };
+		5554178E1ECF2715003198FE /* SOSContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5554178C1ECF2715003198FE /* SOSContactsTableViewCell.m */; };
+		5554178F1ECF2715003198FE /* SOSContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5554178D1ECF2715003198FE /* SOSContactsTableViewCell.xib */; };
+		5597557E1E4F2FD5005B37A7 /* TOECacheController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597557D1E4F2FD5005B37A7 /* TOECacheController.m */; };
+		559755811E4F2FE7005B37A7 /* TOENetworkingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 559755801E4F2FE7005B37A7 /* TOENetworkingUtil.m */; };
+		559755841E4F2FFB005B37A7 /* TOEHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 559755831E4F2FFB005B37A7 /* TOEHttpUtil.m */; };
+		559755871E4F8804005B37A7 /* TOEAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 559755861E4F8804005B37A7 /* TOEAPIConstants.m */; };
+		5597558A1E4F8C08005B37A7 /* NSObject+Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 559755891E4F8C08005B37A7 /* NSObject+Initialization.m */; };
+		55CF430E1F49535E00450F94 /* RelativesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF430C1F49535E00450F94 /* RelativesListViewController.m */; };
+		55CF430F1F49535E00450F94 /* RelativesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CF430D1F49535E00450F94 /* RelativesListViewController.xib */; };
+		55FE8AD11EB1A9B400CF5746 /* FiltersObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE8AD01EB1A9B400CF5746 /* FiltersObject.m */; };
+		8638AC355BA57C33D15B65EE /* libPods-TapOnEmergency.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D2DC3954674C3EAF132167 /* libPods-TapOnEmergency.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553742401E45B90C0048C59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5537421E1E45B90C0048C59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553742251E45B90C0048C59A;
+			remoteInfo = TapOnEmergency;
+		};
+		5537424B1E45B90C0048C59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5537421E1E45B90C0048C59A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553742251E45B90C0048C59A;
+			remoteInfo = TapOnEmergency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D2DC3954674C3EAF132167 /* libPods-TapOnEmergency.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapOnEmergency.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5016F1A7E2449336BCF07834 /* Pods-TapOnEmergency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapOnEmergency.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapOnEmergency/Pods-TapOnEmergency.release.xcconfig"; sourceTree = "<group>"; };
+		5502CC731E71A812003BB91A /* SafetyCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyCenterViewController.h; sourceTree = "<group>"; };
+		5502CC741E71A812003BB91A /* SafetyCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyCenterViewController.m; sourceTree = "<group>"; };
+		5502CC751E71A812003BB91A /* SafetyCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafetyCenterViewController.xib; sourceTree = "<group>"; };
+		5502CC781E71A841003BB91A /* EmergencyContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyContactsViewController.h; sourceTree = "<group>"; };
+		5502CC791E71A841003BB91A /* EmergencyContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactsViewController.m; sourceTree = "<group>"; };
+		5502CC821E71AA4F003BB91A /* EmergencyContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyContactsTableViewCell.h; sourceTree = "<group>"; };
+		5502CC831E71AA4F003BB91A /* EmergencyContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyContactsTableViewCell.m; sourceTree = "<group>"; };
+		5502CC841E71AA4F003BB91A /* EmergencyContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyContactsTableViewCell.xib; sourceTree = "<group>"; };
+		5502CC871E73E435003BB91A /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		5502CC881E73E435003BB91A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		5502CC891E73E435003BB91A /* UserDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		5502CC8D1E756768003BB91A /* FiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersViewController.h; sourceTree = "<group>"; };
+		5502CC8E1E756768003BB91A /* FiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersViewController.m; sourceTree = "<group>"; };
+		5502CC8F1E756768003BB91A /* FiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiltersViewController.xib; sourceTree = "<group>"; };
+		5502CC931E75BD8B003BB91A /* SOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSViewController.h; sourceTree = "<group>"; };
+		5502CC941E75BD8B003BB91A /* SOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSViewController.m; sourceTree = "<group>"; };
+		5502CC951E75BD8B003BB91A /* SOSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SOSViewController.xib; sourceTree = "<group>"; };
+		5502CC981E76F196003BB91A /* LocationModalObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModalObject.h; sourceTree = "<group>"; };
+		5502CC991E76F196003BB91A /* LocationModalObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModalObject.m; sourceTree = "<group>"; };
+		550519EC1EED1FC200CC058A /* NotifcationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifcationsViewController.h; sourceTree = "<group>"; };
+		550519ED1EED1FC200CC058A /* NotifcationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifcationsViewController.m; sourceTree = "<group>"; };
+		550519EF1EED230C00CC058A /* NotifcationsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifcationsTableViewCell.h; sourceTree = "<group>"; };
+		550519F01EED230C00CC058A /* NotifcationsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifcationsTableViewCell.m; sourceTree = "<group>"; };
+		550519F11EED230C00CC058A /* NotifcationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotifcationsTableViewCell.xib; sourceTree = "<group>"; };
+		550C21B81E6DD95C00BD2EB7 /* ContactAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactAdminViewController.h; sourceTree = "<group>"; };
+		550C21B91E6DD95C00BD2EB7 /* ContactAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactAdminViewController.m; sourceTree = "<group>"; };
+		550C21BA1E6DD95C00BD2EB7 /* ContactAdminViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactAdminViewController.xib; sourceTree = "<group>"; };
+		5516D8621F1BBCFB00B697A8 /* UserLocationDataOBj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationDataOBj.h; sourceTree = "<group>"; };
+		5516D8631F1BBCFB00B697A8 /* UserLocationDataOBj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationDataOBj.m; sourceTree = "<group>"; };
+		55196D491F151694000CC205 /* MedicalOptionsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalOptionsCollectionViewCell.h; sourceTree = "<group>"; };
+		55196D4A1F151694000CC205 /* MedicalOptionsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalOptionsCollectionViewCell.m; sourceTree = "<group>"; };
+		55196D4B1F151694000CC205 /* MedicalOptionsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicalOptionsCollectionViewCell.xib; sourceTree = "<group>"; };
+		552F04821E865ECC006AB919 /* LoginDataModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDataModal.h; sourceTree = "<group>"; };
+		552F04831E865ECC006AB919 /* LoginDataModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDataModal.m; sourceTree = "<group>"; };
+		552F04851E86E774006AB919 /* HospitalsListDataModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalsListDataModal.h; sourceTree = "<group>"; };
+		552F04861E86E774006AB919 /* HospitalsListDataModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalsListDataModal.m; sourceTree = "<group>"; };
+		5535399B1EA0BFC8000EBE2E /* HospitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailViewController.h; sourceTree = "<group>"; };
+		5535399C1EA0BFC8000EBE2E /* HospitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailViewController.m; sourceTree = "<group>"; };
+		5535399D1EA0BFC8000EBE2E /* HospitalDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalDetailViewController.xib; sourceTree = "<group>"; };
+		553539A01EA0C149000EBE2E /* HospitalInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalInfoTableViewCell.h; sourceTree = "<group>"; };
+		553539A11EA0C149000EBE2E /* HospitalInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalInfoTableViewCell.m; sourceTree = "<group>"; };
+		553539A21EA0C149000EBE2E /* HospitalInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalInfoTableViewCell.xib; sourceTree = "<group>"; };
+		553539A51EA0C15D000EBE2E /* HospitalAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalAddressTableViewCell.h; sourceTree = "<group>"; };
+		553539A61EA0C15D000EBE2E /* HospitalAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalAddressTableViewCell.m; sourceTree = "<group>"; };
+		553539A71EA0C15D000EBE2E /* HospitalAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalAddressTableViewCell.xib; sourceTree = "<group>"; };
+		553539AA1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalContactInfoTableViewCell.h; sourceTree = "<group>"; };
+		553539AB1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalContactInfoTableViewCell.m; sourceTree = "<group>"; };
+		553539AC1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalContactInfoTableViewCell.xib; sourceTree = "<group>"; };
+		553539AF1EA0C194000EBE2E /* HospitalHighlightsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalHighlightsTableViewCell.h; sourceTree = "<group>"; };
+		553539B01EA0C194000EBE2E /* HospitalHighlightsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalHighlightsTableViewCell.m; sourceTree = "<group>"; };
+		553539B11EA0C194000EBE2E /* HospitalHighlightsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalHighlightsTableViewCell.xib; sourceTree = "<group>"; };
+		553742261E45B90C0048C59A /* TapOnEmergency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapOnEmergency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5537422A1E45B90C0048C59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5537422C1E45B90C0048C59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5537422D1E45B90C0048C59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5537422F1E45B90C0048C59A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		553742301E45B90C0048C59A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		553742331E45B90C0048C59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		553742351E45B90C0048C59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553742381E45B90C0048C59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5537423A1E45B90C0048C59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5537423F1E45B90C0048C59A /* TapOnEmergencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapOnEmergencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		553742431E45B90C0048C59A /* TapOnEmergencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapOnEmergencyTests.m; sourceTree = "<group>"; };
+		553742451E45B90C0048C59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5537424A1E45B90C0048C59A /* TapOnEmergencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapOnEmergencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5537424E1E45B90C0048C59A /* TapOnEmergencyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapOnEmergencyUITests.m; sourceTree = "<group>"; };
+		553742501E45B90D0048C59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5537425D1E460A190048C59A /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		5537425E1E460A190048C59A /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		553742601E460A290048C59A /* ForgetPassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassWordViewController.h; sourceTree = "<group>"; };
+		553742611E460A290048C59A /* ForgetPassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassWordViewController.m; sourceTree = "<group>"; };
+		553742631E472A730048C59A /* App tray logo icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App tray logo icon.png"; sourceTree = "<group>"; };
+		553742671E4737680048C59A /* TOEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOEConstants.h; sourceTree = "<group>"; };
+		553742681E4737680048C59A /* TOEConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOEConstants.m; sourceTree = "<group>"; };
+		5537426B1E4758FC0048C59A /* HospitalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalListViewController.h; sourceTree = "<group>"; };
+		5537426C1E4758FC0048C59A /* HospitalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalListViewController.m; sourceTree = "<group>"; };
+		5537426E1E47599E0048C59A /* CardsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsTableViewCell.h; sourceTree = "<group>"; };
+		5537426F1E47599E0048C59A /* CardsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsTableViewCell.m; sourceTree = "<group>"; };
+		553742701E47599E0048C59A /* CardsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardsTableViewCell.xib; sourceTree = "<group>"; };
+		553742741E4783C80048C59A /* SideBarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenu.h; sourceTree = "<group>"; };
+		553742751E4783C80048C59A /* SideBarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenu.m; sourceTree = "<group>"; };
+		553742771E4783D50048C59A /* SideBarMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarMenu.xib; sourceTree = "<group>"; };
+		553742791E47893D0048C59A /* SideBarMenuModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuModal.h; sourceTree = "<group>"; };
+		5537427A1E47893D0048C59A /* SideBarMenuModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuModal.m; sourceTree = "<group>"; };
+		5537427C1E47909E0048C59A /* SideBarMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuTableViewCell.h; sourceTree = "<group>"; };
+		5537427D1E47909E0048C59A /* SideBarMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuTableViewCell.m; sourceTree = "<group>"; };
+		5537427E1E47909E0048C59A /* SideBarMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarMenuTableViewCell.xib; sourceTree = "<group>"; };
+		554B4D7C1F08013B00486F71 /* NotificationsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsDetailViewController.h; sourceTree = "<group>"; };
+		554B4D7D1F08013B00486F71 /* NotificationsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsDetailViewController.m; sourceTree = "<group>"; };
+		554B4D7E1F08013B00486F71 /* NotificationsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsDetailViewController.xib; sourceTree = "<group>"; };
+		554B4DA51F0B7A8C00486F71 /* Blood Bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood Bank.png"; sourceTree = "<group>"; };
+		554B4DA61F0B7A8C00486F71 /* cardiology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardiology.png; sourceTree = "<group>"; };
+		554B4DA71F0B7A8C00486F71 /* Chest Specalist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chest Specalist.png"; sourceTree = "<group>"; };
+		554B4DA81F0B7A8C00486F71 /* Dentistry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dentistry.png; sourceTree = "<group>"; };
+		554B4DA91F0B7A8C00486F71 /* Dermatology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dermatology.png; sourceTree = "<group>"; };
+		554B4DAA1F0B7A8C00486F71 /* ENT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ENT.png; sourceTree = "<group>"; };
+		554B4DAB1F0B7A8C00486F71 /* Gastrointestinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gastrointestinal.png; sourceTree = "<group>"; };
+		554B4DAC1F0B7A8C00486F71 /* General Medicine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General Medicine.png"; sourceTree = "<group>"; };
+		554B4DAD1F0B7A8C00486F71 /* Gynecology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gynecology.png; sourceTree = "<group>"; };
+		554B4DAE1F0B7A8C00486F71 /* IVF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IVF.png; sourceTree = "<group>"; };
+		554B4DAF1F0B7A8C00486F71 /* Nephrology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nephrology.png; sourceTree = "<group>"; };
+		554B4DB01F0B7A8C00486F71 /* Neurology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neurology.png; sourceTree = "<group>"; };
+		554B4DB11F0B7A8C00486F71 /* Obstetrics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Obstetrics.png; sourceTree = "<group>"; };
+		554B4DB21F0B7A8C00486F71 /* opthalmology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opthalmology.png; sourceTree = "<group>"; };
+		554B4DB31F0B7A8C00486F71 /* Orthopedics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orthopedics.png; sourceTree = "<group>"; };
+		554B4DB41F0B7A8C00486F71 /* Pathology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pathology.png; sourceTree = "<group>"; };
+		554B4DB51F0B7A8C00486F71 /* Pediatrician.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pediatrician.png; sourceTree = "<group>"; };
+		554B4DB61F0B7A8C00486F71 /* Psychiatry 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Psychiatry 1.png"; sourceTree = "<group>"; };
+		554B4DB71F0B7A8C00486F71 /* Psychiatry 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Psychiatry 2.png"; sourceTree = "<group>"; };
+		554B4DCC1F0B869C00486F71 /* APILoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APILoaderView.h; sourceTree = "<group>"; };
+		554B4DCD1F0B869C00486F71 /* APILoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APILoaderView.m; sourceTree = "<group>"; };
+		554B4DCF1F0BB3CA00486F71 /* EmergencyContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyContactsViewController.xib; sourceTree = "<group>"; };
+		55523A431F4DB83C001860EA /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		55523A441F4DB83C001860EA /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		55523A451F4DB83C001860EA /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		5554178B1ECF2715003198FE /* SOSContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSContactsTableViewCell.h; sourceTree = "<group>"; };
+		5554178C1ECF2715003198FE /* SOSContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSContactsTableViewCell.m; sourceTree = "<group>"; };
+		5554178D1ECF2715003198FE /* SOSContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SOSContactsTableViewCell.xib; sourceTree = "<group>"; };
+		5597557C1E4F2FD5005B37A7 /* TOECacheController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOECacheController.h; sourceTree = "<group>"; };
+		5597557D1E4F2FD5005B37A7 /* TOECacheController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOECacheController.m; sourceTree = "<group>"; };
+		5597557F1E4F2FE7005B37A7 /* TOENetworkingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOENetworkingUtil.h; sourceTree = "<group>"; };
+		559755801E4F2FE7005B37A7 /* TOENetworkingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOENetworkingUtil.m; sourceTree = "<group>"; };
+		559755821E4F2FFB005B37A7 /* TOEHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOEHttpUtil.h; sourceTree = "<group>"; };
+		559755831E4F2FFB005B37A7 /* TOEHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOEHttpUtil.m; sourceTree = "<group>"; };
+		559755851E4F8804005B37A7 /* TOEAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOEAPIConstants.h; sourceTree = "<group>"; };
+		559755861E4F8804005B37A7 /* TOEAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOEAPIConstants.m; sourceTree = "<group>"; };
+		559755881E4F8C08005B37A7 /* NSObject+Initialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Initialization.h"; sourceTree = "<group>"; };
+		559755891E4F8C08005B37A7 /* NSObject+Initialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Initialization.m"; sourceTree = "<group>"; };
+		55CF430B1F49535E00450F94 /* RelativesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativesListViewController.h; sourceTree = "<group>"; };
+		55CF430C1F49535E00450F94 /* RelativesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativesListViewController.m; sourceTree = "<group>"; };
+		55CF430D1F49535E00450F94 /* RelativesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelativesListViewController.xib; sourceTree = "<group>"; };
+		55F8930B1F7A3AC1001A1F37 /* TapOnEmergency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapOnEmergency.entitlements; sourceTree = "<group>"; };
+		55FE8ACF1EB1A9B400CF5746 /* FiltersObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersObject.h; sourceTree = "<group>"; };
+		55FE8AD01EB1A9B400CF5746 /* FiltersObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersObject.m; sourceTree = "<group>"; };
+		CC878EB9DBACEE828CA4C356 /* Pods-TapOnEmergency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapOnEmergency.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapOnEmergency/Pods-TapOnEmergency.debug.xcconfig"; sourceTree = "<group>"; };
+		EA271C33A52FA4AD7009AEA7 /* libPods-TapOnEmergencyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapOnEmergencyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB69E0A9D52E3942937B2765 /* libPods-TapOnEmergencyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapOnEmergencyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553742231E45B90C0048C59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8638AC355BA57C33D15B65EE /* libPods-TapOnEmergency.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537423C1E45B90C0048C59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553742471E45B90C0048C59A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5502CC8C1E75675A003BB91A /* TOEFilters */ = {
+			isa = PBXGroup;
+			children = (
+				5502CC8D1E756768003BB91A /* FiltersViewController.h */,
+				5502CC8E1E756768003BB91A /* FiltersViewController.m */,
+				5502CC8F1E756768003BB91A /* FiltersViewController.xib */,
+				55FE8ACF1EB1A9B400CF5746 /* FiltersObject.h */,
+				55FE8AD01EB1A9B400CF5746 /* FiltersObject.m */,
+			);
+			path = TOEFilters;
+			sourceTree = "<group>";
+		};
+		5502CC921E75BD7D003BB91A /* SOSScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5502CC931E75BD8B003BB91A /* SOSViewController.h */,
+				5502CC941E75BD8B003BB91A /* SOSViewController.m */,
+				5502CC951E75BD8B003BB91A /* SOSViewController.xib */,
+				5554178B1ECF2715003198FE /* SOSContactsTableViewCell.h */,
+				5554178C1ECF2715003198FE /* SOSContactsTableViewCell.m */,
+				5554178D1ECF2715003198FE /* SOSContactsTableViewCell.xib */,
+			);
+			path = SOSScreen;
+			sourceTree = "<group>";
+		};
+		550519EB1EED1FAD00CC058A /* TOENotifications */ = {
+			isa = PBXGroup;
+			children = (
+				554B4D7B1F08012700486F71 /* NotifcationsDetailViewController */,
+				550519EC1EED1FC200CC058A /* NotifcationsViewController.h */,
+				550519ED1EED1FC200CC058A /* NotifcationsViewController.m */,
+				550519EF1EED230C00CC058A /* NotifcationsTableViewCell.h */,
+				550519F01EED230C00CC058A /* NotifcationsTableViewCell.m */,
+				550519F11EED230C00CC058A /* NotifcationsTableViewCell.xib */,
+			);
+			path = TOENotifications;
+			sourceTree = "<group>";
+		};
+		550C21B71E6DD94100BD2EB7 /* SideBarMenuScreens */ = {
+			isa = PBXGroup;
+			children = (
+				550C21B81E6DD95C00BD2EB7 /* ContactAdminViewController.h */,
+				550C21B91E6DD95C00BD2EB7 /* ContactAdminViewController.m */,
+				550C21BA1E6DD95C00BD2EB7 /* ContactAdminViewController.xib */,
+				5502CC731E71A812003BB91A /* SafetyCenterViewController.h */,
+				5502CC741E71A812003BB91A /* SafetyCenterViewController.m */,
+				5502CC751E71A812003BB91A /* SafetyCenterViewController.xib */,
+				5502CC781E71A841003BB91A /* EmergencyContactsViewController.h */,
+				5502CC791E71A841003BB91A /* EmergencyContactsViewController.m */,
+				554B4DCF1F0BB3CA00486F71 /* EmergencyContactsViewController.xib */,
+				5502CC821E71AA4F003BB91A /* EmergencyContactsTableViewCell.h */,
+				5502CC831E71AA4F003BB91A /* EmergencyContactsTableViewCell.m */,
+				5502CC841E71AA4F003BB91A /* EmergencyContactsTableViewCell.xib */,
+				5502CC871E73E435003BB91A /* UserDetailsViewController.h */,
+				5502CC881E73E435003BB91A /* UserDetailsViewController.m */,
+				5502CC891E73E435003BB91A /* UserDetailsViewController.xib */,
+				55CF430B1F49535E00450F94 /* RelativesListViewController.h */,
+				55CF430C1F49535E00450F94 /* RelativesListViewController.m */,
+				55CF430D1F49535E00450F94 /* RelativesListViewController.xib */,
+				5502CC981E76F196003BB91A /* LocationModalObject.h */,
+				5502CC991E76F196003BB91A /* LocationModalObject.m */,
+				55196D491F151694000CC205 /* MedicalOptionsCollectionViewCell.h */,
+				55196D4A1F151694000CC205 /* MedicalOptionsCollectionViewCell.m */,
+				55196D4B1F151694000CC205 /* MedicalOptionsCollectionViewCell.xib */,
+				55523A431F4DB83C001860EA /* UserProfileViewController.h */,
+				55523A441F4DB83C001860EA /* UserProfileViewController.m */,
+				55523A451F4DB83C001860EA /* UserProfileViewController.xib */,
+			);
+			path = SideBarMenuScreens;
+			sourceTree = "<group>";
+		};
+		552F04811E865E5E006AB919 /* TOEAPIModals */ = {
+			isa = PBXGroup;
+			children = (
+				552F04821E865ECC006AB919 /* LoginDataModal.h */,
+				552F04831E865ECC006AB919 /* LoginDataModal.m */,
+				552F04851E86E774006AB919 /* HospitalsListDataModal.h */,
+				552F04861E86E774006AB919 /* HospitalsListDataModal.m */,
+			);
+			path = TOEAPIModals;
+			sourceTree = "<group>";
+		};
+		5535399A1EA0BFB2000EBE2E /* HospitalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5535399B1EA0BFC8000EBE2E /* HospitalDetailViewController.h */,
+				5535399C1EA0BFC8000EBE2E /* HospitalDetailViewController.m */,
+				5535399D1EA0BFC8000EBE2E /* HospitalDetailViewController.xib */,
+				553539A01EA0C149000EBE2E /* HospitalInfoTableViewCell.h */,
+				553539A11EA0C149000EBE2E /* HospitalInfoTableViewCell.m */,
+				553539A21EA0C149000EBE2E /* HospitalInfoTableViewCell.xib */,
+				553539A51EA0C15D000EBE2E /* HospitalAddressTableViewCell.h */,
+				553539A61EA0C15D000EBE2E /* HospitalAddressTableViewCell.m */,
+				553539A71EA0C15D000EBE2E /* HospitalAddressTableViewCell.xib */,
+				553539AA1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.h */,
+				553539AB1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.m */,
+				553539AC1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.xib */,
+				553539AF1EA0C194000EBE2E /* HospitalHighlightsTableViewCell.h */,
+				553539B01EA0C194000EBE2E /* HospitalHighlightsTableViewCell.m */,
+				553539B11EA0C194000EBE2E /* HospitalHighlightsTableViewCell.xib */,
+			);
+			path = HospitalDetail;
+			sourceTree = "<group>";
+		};
+		5537421D1E45B90C0048C59A = {
+			isa = PBXGroup;
+			children = (
+				553742281E45B90C0048C59A /* TapOnEmergency */,
+				553742421E45B90C0048C59A /* TapOnEmergencyTests */,
+				5537424D1E45B90C0048C59A /* TapOnEmergencyUITests */,
+				553742271E45B90C0048C59A /* Products */,
+				870756D6B5F6CBF91672DEF7 /* Pods */,
+				FA89948C37D308C5D4410657 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		553742271E45B90C0048C59A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553742261E45B90C0048C59A /* TapOnEmergency.app */,
+				5537423F1E45B90C0048C59A /* TapOnEmergencyTests.xctest */,
+				5537424A1E45B90C0048C59A /* TapOnEmergencyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		553742281E45B90C0048C59A /* TapOnEmergency */ = {
+			isa = PBXGroup;
+			children = (
+				55F8930B1F7A3AC1001A1F37 /* TapOnEmergency.entitlements */,
+				554B4DCB1F0B868500486F71 /* APILoader */,
+				554B4DA41F0B7A7D00486F71 /* HospitalCategoryImages */,
+				550519EB1EED1FAD00CC058A /* TOENotifications */,
+				5535399A1EA0BFB2000EBE2E /* HospitalDetail */,
+				552F04811E865E5E006AB919 /* TOEAPIModals */,
+				5502CC921E75BD7D003BB91A /* SOSScreen */,
+				5502CC8C1E75675A003BB91A /* TOEFilters */,
+				550C21B71E6DD94100BD2EB7 /* SideBarMenuScreens */,
+				553742731E4783B60048C59A /* SideBarMenu */,
+				5537426A1E4758DF0048C59A /* HospitalsList */,
+				553742661E4737350048C59A /* TOENetworking */,
+				553742651E4737180048C59A /* TOEConstants */,
+				5537425C1E4609F20048C59A /* TOESignUp */,
+				5537422C1E45B90C0048C59A /* AppDelegate.h */,
+				5537422D1E45B90C0048C59A /* AppDelegate.m */,
+				5537422F1E45B90C0048C59A /* ViewController.h */,
+				553742301E45B90C0048C59A /* ViewController.m */,
+				553742631E472A730048C59A /* App tray logo icon.png */,
+				553742321E45B90C0048C59A /* Main.storyboard */,
+				553742351E45B90C0048C59A /* Assets.xcassets */,
+				553742371E45B90C0048C59A /* LaunchScreen.storyboard */,
+				5537423A1E45B90C0048C59A /* Info.plist */,
+				553742291E45B90C0048C59A /* Supporting Files */,
+			);
+			path = TapOnEmergency;
+			sourceTree = "<group>";
+		};
+		553742291E45B90C0048C59A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5537422A1E45B90C0048C59A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		553742421E45B90C0048C59A /* TapOnEmergencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				553742431E45B90C0048C59A /* TapOnEmergencyTests.m */,
+				553742451E45B90C0048C59A /* Info.plist */,
+			);
+			path = TapOnEmergencyTests;
+			sourceTree = "<group>";
+		};
+		5537424D1E45B90C0048C59A /* TapOnEmergencyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5537424E1E45B90C0048C59A /* TapOnEmergencyUITests.m */,
+				553742501E45B90D0048C59A /* Info.plist */,
+			);
+			path = TapOnEmergencyUITests;
+			sourceTree = "<group>";
+		};
+		5537425C1E4609F20048C59A /* TOESignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5537425D1E460A190048C59A /* SignUpViewController.h */,
+				5537425E1E460A190048C59A /* SignUpViewController.m */,
+				553742601E460A290048C59A /* ForgetPassWordViewController.h */,
+				553742611E460A290048C59A /* ForgetPassWordViewController.m */,
+			);
+			path = TOESignUp;
+			sourceTree = "<group>";
+		};
+		553742651E4737180048C59A /* TOEConstants */ = {
+			isa = PBXGroup;
+			children = (
+				553742671E4737680048C59A /* TOEConstants.h */,
+				553742681E4737680048C59A /* TOEConstants.m */,
+			);
+			path = TOEConstants;
+			sourceTree = "<group>";
+		};
+		553742661E4737350048C59A /* TOENetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5597557C1E4F2FD5005B37A7 /* TOECacheController.h */,
+				5597557D1E4F2FD5005B37A7 /* TOECacheController.m */,
+				5597557F1E4F2FE7005B37A7 /* TOENetworkingUtil.h */,
+				559755801E4F2FE7005B37A7 /* TOENetworkingUtil.m */,
+				559755821E4F2FFB005B37A7 /* TOEHttpUtil.h */,
+				559755831E4F2FFB005B37A7 /* TOEHttpUtil.m */,
+				559755851E4F8804005B37A7 /* TOEAPIConstants.h */,
+				559755861E4F8804005B37A7 /* TOEAPIConstants.m */,
+				559755881E4F8C08005B37A7 /* NSObject+Initialization.h */,
+				559755891E4F8C08005B37A7 /* NSObject+Initialization.m */,
+			);
+			path = TOENetworking;
+			sourceTree = "<group>";
+		};
+		5537426A1E4758DF0048C59A /* HospitalsList */ = {
+			isa = PBXGroup;
+			children = (
+				5537426B1E4758FC0048C59A /* HospitalListViewController.h */,
+				5537426C1E4758FC0048C59A /* HospitalListViewController.m */,
+				5537426E1E47599E0048C59A /* CardsTableViewCell.h */,
+				5537426F1E47599E0048C59A /* CardsTableViewCell.m */,
+				553742701E47599E0048C59A /* CardsTableViewCell.xib */,
+				5516D8621F1BBCFB00B697A8 /* UserLocationDataOBj.h */,
+				5516D8631F1BBCFB00B697A8 /* UserLocationDataOBj.m */,
+			);
+			path = HospitalsList;
+			sourceTree = "<group>";
+		};
+		553742731E4783B60048C59A /* SideBarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				553742741E4783C80048C59A /* SideBarMenu.h */,
+				553742751E4783C80048C59A /* SideBarMenu.m */,
+				553742771E4783D50048C59A /* SideBarMenu.xib */,
+				553742791E47893D0048C59A /* SideBarMenuModal.h */,
+				5537427A1E47893D0048C59A /* SideBarMenuModal.m */,
+				5537427C1E47909E0048C59A /* SideBarMenuTableViewCell.h */,
+				5537427D1E47909E0048C59A /* SideBarMenuTableViewCell.m */,
+				5537427E1E47909E0048C59A /* SideBarMenuTableViewCell.xib */,
+			);
+			path = SideBarMenu;
+			sourceTree = "<group>";
+		};
+		554B4D7B1F08012700486F71 /* NotifcationsDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				554B4D7C1F08013B00486F71 /* NotificationsDetailViewController.h */,
+				554B4D7D1F08013B00486F71 /* NotificationsDetailViewController.m */,
+				554B4D7E1F08013B00486F71 /* NotificationsDetailViewController.xib */,
+			);
+			path = NotifcationsDetailViewController;
+			sourceTree = "<group>";
+		};
+		554B4DA41F0B7A7D00486F71 /* HospitalCategoryImages */ = {
+			isa = PBXGroup;
+			children = (
+				554B4DA51F0B7A8C00486F71 /* Blood Bank.png */,
+				554B4DA61F0B7A8C00486F71 /* cardiology.png */,
+				554B4DA71F0B7A8C00486F71 /* Chest Specalist.png */,
+				554B4DA81F0B7A8C00486F71 /* Dentistry.png */,
+				554B4DA91F0B7A8C00486F71 /* Dermatology.png */,
+				554B4DAA1F0B7A8C00486F71 /* ENT.png */,
+				554B4DAB1F0B7A8C00486F71 /* Gastrointestinal.png */,
+				554B4DAC1F0B7A8C00486F71 /* General Medicine.png */,
+				554B4DAD1F0B7A8C00486F71 /* Gynecology.png */,
+				554B4DAE1F0B7A8C00486F71 /* IVF.png */,
+				554B4DAF1F0B7A8C00486F71 /* Nephrology.png */,
+				554B4DB01F0B7A8C00486F71 /* Neurology.png */,
+				554B4DB11F0B7A8C00486F71 /* Obstetrics.png */,
+				554B4DB21F0B7A8C00486F71 /* opthalmology.png */,
+				554B4DB31F0B7A8C00486F71 /* Orthopedics.png */,
+				554B4DB41F0B7A8C00486F71 /* Pathology.png */,
+				554B4DB51F0B7A8C00486F71 /* Pediatrician.png */,
+				554B4DB61F0B7A8C00486F71 /* Psychiatry 1.png */,
+				554B4DB71F0B7A8C00486F71 /* Psychiatry 2.png */,
+			);
+			path = HospitalCategoryImages;
+			sourceTree = "<group>";
+		};
+		554B4DCB1F0B868500486F71 /* APILoader */ = {
+			isa = PBXGroup;
+			children = (
+				554B4DCC1F0B869C00486F71 /* APILoaderView.h */,
+				554B4DCD1F0B869C00486F71 /* APILoaderView.m */,
+			);
+			path = APILoader;
+			sourceTree = "<group>";
+		};
+		870756D6B5F6CBF91672DEF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC878EB9DBACEE828CA4C356 /* Pods-TapOnEmergency.debug.xcconfig */,
+				5016F1A7E2449336BCF07834 /* Pods-TapOnEmergency.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA89948C37D308C5D4410657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D2DC3954674C3EAF132167 /* libPods-TapOnEmergency.a */,
+				FB69E0A9D52E3942937B2765 /* libPods-TapOnEmergencyTests.a */,
+				EA271C33A52FA4AD7009AEA7 /* libPods-TapOnEmergencyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553742251E45B90C0048C59A /* TapOnEmergency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553742531E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergency" */;
+			buildPhases = (
+				9EF70F6E383A308DC7A8B1BC /* [CP] Check Pods Manifest.lock */,
+				553742221E45B90C0048C59A /* Sources */,
+				553742231E45B90C0048C59A /* Frameworks */,
+				553742241E45B90C0048C59A /* Resources */,
+				2F87FDE9EBAF1DCC7436B9E6 /* [CP] Embed Pods Frameworks */,
+				E5C0DCD5837C2D48F4D4213F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapOnEmergency;
+			productName = TapOnEmergency;
+			productReference = 553742261E45B90C0048C59A /* TapOnEmergency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5537423E1E45B90C0048C59A /* TapOnEmergencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553742561E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergencyTests" */;
+			buildPhases = (
+				5537423B1E45B90C0048C59A /* Sources */,
+				5537423C1E45B90C0048C59A /* Frameworks */,
+				5537423D1E45B90C0048C59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553742411E45B90C0048C59A /* PBXTargetDependency */,
+			);
+			name = TapOnEmergencyTests;
+			productName = TapOnEmergencyTests;
+			productReference = 5537423F1E45B90C0048C59A /* TapOnEmergencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553742491E45B90C0048C59A /* TapOnEmergencyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553742591E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergencyUITests" */;
+			buildPhases = (
+				553742461E45B90C0048C59A /* Sources */,
+				553742471E45B90C0048C59A /* Frameworks */,
+				553742481E45B90C0048C59A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5537424C1E45B90C0048C59A /* PBXTargetDependency */,
+			);
+			name = TapOnEmergencyUITests;
+			productName = TapOnEmergencyUITests;
+			productReference = 5537424A1E45B90C0048C59A /* TapOnEmergencyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5537421E1E45B90C0048C59A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TOE;
+				TargetAttributes = {
+					553742251E45B90C0048C59A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B7Z6AU5G4B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5537423E1E45B90C0048C59A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 67D9VA6NS6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553742251E45B90C0048C59A;
+					};
+					553742491E45B90C0048C59A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 67D9VA6NS6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553742251E45B90C0048C59A;
+					};
+				};
+			};
+			buildConfigurationList = 553742211E45B90C0048C59A /* Build configuration list for PBXProject "TapOnEmergency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5537421D1E45B90C0048C59A;
+			productRefGroup = 553742271E45B90C0048C59A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553742251E45B90C0048C59A /* TapOnEmergency */,
+				5537423E1E45B90C0048C59A /* TapOnEmergencyTests */,
+				553742491E45B90C0048C59A /* TapOnEmergencyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553742241E45B90C0048C59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5502CC971E75BD8B003BB91A /* SOSViewController.xib in Resources */,
+				55523A471F4DB83C001860EA /* UserProfileViewController.xib in Resources */,
+				553742641E472A730048C59A /* App tray logo icon.png in Resources */,
+				554B4DC21F0B7A8C00486F71 /* Nephrology.png in Resources */,
+				5554178F1ECF2715003198FE /* SOSContactsTableViewCell.xib in Resources */,
+				554B4DBF1F0B7A8C00486F71 /* General Medicine.png in Resources */,
+				553539A41EA0C149000EBE2E /* HospitalInfoTableViewCell.xib in Resources */,
+				553742721E47599E0048C59A /* CardsTableViewCell.xib in Resources */,
+				553742391E45B90C0048C59A /* LaunchScreen.storyboard in Resources */,
+				553742781E4783D50048C59A /* SideBarMenu.xib in Resources */,
+				554B4DBE1F0B7A8C00486F71 /* Gastrointestinal.png in Resources */,
+				5502CC8B1E73E435003BB91A /* UserDetailsViewController.xib in Resources */,
+				5502CC911E756768003BB91A /* FiltersViewController.xib in Resources */,
+				554B4DBB1F0B7A8C00486F71 /* Dentistry.png in Resources */,
+				554B4DC91F0B7A8C00486F71 /* Psychiatry 1.png in Resources */,
+				553742801E47909E0048C59A /* SideBarMenuTableViewCell.xib in Resources */,
+				550C21BC1E6DD95C00BD2EB7 /* ContactAdminViewController.xib in Resources */,
+				554B4DC41F0B7A8C00486F71 /* Obstetrics.png in Resources */,
+				554B4DB91F0B7A8C00486F71 /* cardiology.png in Resources */,
+				554B4DC51F0B7A8C00486F71 /* opthalmology.png in Resources */,
+				5502CC771E71A812003BB91A /* SafetyCenterViewController.xib in Resources */,
+				554B4DC11F0B7A8C00486F71 /* IVF.png in Resources */,
+				554B4DBD1F0B7A8C00486F71 /* ENT.png in Resources */,
+				554B4DCA1F0B7A8C00486F71 /* Psychiatry 2.png in Resources */,
+				554B4DC31F0B7A8C00486F71 /* Neurology.png in Resources */,
+				554B4DD01F0BB3CA00486F71 /* EmergencyContactsViewController.xib in Resources */,
+				55CF430F1F49535E00450F94 /* RelativesListViewController.xib in Resources */,
+				554B4DBA1F0B7A8C00486F71 /* Chest Specalist.png in Resources */,
+				553539A91EA0C15D000EBE2E /* HospitalAddressTableViewCell.xib in Resources */,
+				553742361E45B90C0048C59A /* Assets.xcassets in Resources */,
+				554B4DB81F0B7A8C00486F71 /* Blood Bank.png in Resources */,
+				554B4DC81F0B7A8C00486F71 /* Pediatrician.png in Resources */,
+				550519F31EED230C00CC058A /* NotifcationsTableViewCell.xib in Resources */,
+				553539AE1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.xib in Resources */,
+				554B4D801F08013B00486F71 /* NotificationsDetailViewController.xib in Resources */,
+				554B4DC71F0B7A8C00486F71 /* Pathology.png in Resources */,
+				553742341E45B90C0048C59A /* Main.storyboard in Resources */,
+				554B4DBC1F0B7A8C00486F71 /* Dermatology.png in Resources */,
+				5502CC861E71AA4F003BB91A /* EmergencyContactsTableViewCell.xib in Resources */,
+				55196D4D1F151694000CC205 /* MedicalOptionsCollectionViewCell.xib in Resources */,
+				554B4DC01F0B7A8C00486F71 /* Gynecology.png in Resources */,
+				5535399F1EA0BFC9000EBE2E /* HospitalDetailViewController.xib in Resources */,
+				553539B31EA0C194000EBE2E /* HospitalHighlightsTableViewCell.xib in Resources */,
+				554B4DC61F0B7A8C00486F71 /* Orthopedics.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537423D1E45B90C0048C59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553742481E45B90C0048C59A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F87FDE9EBAF1DCC7436B9E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapOnEmergency/Pods-TapOnEmergency-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF70F6E383A308DC7A8B1BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapOnEmergency-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C0DCD5837C2D48F4D4213F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TapOnEmergency/Pods-TapOnEmergency-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapOnEmergency/Pods-TapOnEmergency-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553742221E45B90C0048C59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5502CC851E71AA4F003BB91A /* EmergencyContactsTableViewCell.m in Sources */,
+				554B4DCE1F0B869C00486F71 /* APILoaderView.m in Sources */,
+				55CF430E1F49535E00450F94 /* RelativesListViewController.m in Sources */,
+				5516D8641F1BBCFB00B697A8 /* UserLocationDataOBj.m in Sources */,
+				55196D4C1F151694000CC205 /* MedicalOptionsCollectionViewCell.m in Sources */,
+				55FE8AD11EB1A9B400CF5746 /* FiltersObject.m in Sources */,
+				553742691E4737680048C59A /* TOEConstants.m in Sources */,
+				553539A31EA0C149000EBE2E /* HospitalInfoTableViewCell.m in Sources */,
+				5537427F1E47909E0048C59A /* SideBarMenuTableViewCell.m in Sources */,
+				550519F21EED230C00CC058A /* NotifcationsTableViewCell.m in Sources */,
+				5535399E1EA0BFC9000EBE2E /* HospitalDetailViewController.m in Sources */,
+				5502CC9A1E76F196003BB91A /* LocationModalObject.m in Sources */,
+				5597558A1E4F8C08005B37A7 /* NSObject+Initialization.m in Sources */,
+				5554178E1ECF2715003198FE /* SOSContactsTableViewCell.m in Sources */,
+				5597557E1E4F2FD5005B37A7 /* TOECacheController.m in Sources */,
+				550519EE1EED1FC200CC058A /* NotifcationsViewController.m in Sources */,
+				5502CC901E756768003BB91A /* FiltersViewController.m in Sources */,
+				5537427B1E47893D0048C59A /* SideBarMenuModal.m in Sources */,
+				553539B21EA0C194000EBE2E /* HospitalHighlightsTableViewCell.m in Sources */,
+				559755841E4F2FFB005B37A7 /* TOEHttpUtil.m in Sources */,
+				55523A461F4DB83C001860EA /* UserProfileViewController.m in Sources */,
+				5502CC7B1E71A841003BB91A /* EmergencyContactsViewController.m in Sources */,
+				554B4D7F1F08013B00486F71 /* NotificationsDetailViewController.m in Sources */,
+				5537426D1E4758FC0048C59A /* HospitalListViewController.m in Sources */,
+				553742311E45B90C0048C59A /* ViewController.m in Sources */,
+				5537422E1E45B90C0048C59A /* AppDelegate.m in Sources */,
+				553742761E4783C80048C59A /* SideBarMenu.m in Sources */,
+				553742621E460A290048C59A /* ForgetPassWordViewController.m in Sources */,
+				5502CC761E71A812003BB91A /* SafetyCenterViewController.m in Sources */,
+				552F04871E86E774006AB919 /* HospitalsListDataModal.m in Sources */,
+				552F04841E865ECC006AB919 /* LoginDataModal.m in Sources */,
+				559755871E4F8804005B37A7 /* TOEAPIConstants.m in Sources */,
+				550C21BB1E6DD95C00BD2EB7 /* ContactAdminViewController.m in Sources */,
+				5537425F1E460A190048C59A /* SignUpViewController.m in Sources */,
+				553539A81EA0C15D000EBE2E /* HospitalAddressTableViewCell.m in Sources */,
+				5537422B1E45B90C0048C59A /* main.m in Sources */,
+				559755811E4F2FE7005B37A7 /* TOENetworkingUtil.m in Sources */,
+				5502CC8A1E73E435003BB91A /* UserDetailsViewController.m in Sources */,
+				5502CC961E75BD8B003BB91A /* SOSViewController.m in Sources */,
+				553539AD1EA0C16D000EBE2E /* HospitalContactInfoTableViewCell.m in Sources */,
+				553742711E47599E0048C59A /* CardsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537423B1E45B90C0048C59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553742441E45B90C0048C59A /* TapOnEmergencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553742461E45B90C0048C59A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5537424F1E45B90C0048C59A /* TapOnEmergencyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		553742411E45B90C0048C59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553742251E45B90C0048C59A /* TapOnEmergency */;
+			targetProxy = 553742401E45B90C0048C59A /* PBXContainerItemProxy */;
+		};
+		5537424C1E45B90C0048C59A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553742251E45B90C0048C59A /* TapOnEmergency */;
+			targetProxy = 5537424B1E45B90C0048C59A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		553742321E45B90C0048C59A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553742331E45B90C0048C59A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		553742371E45B90C0048C59A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553742381E45B90C0048C59A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553742511E45B90D0048C59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		553742521E45B90D0048C59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553742541E45B90D0048C59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC878EB9DBACEE828CA4C356 /* Pods-TapOnEmergency.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TapOnEmergency/TapOnEmergency.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7Z6AU5G4B;
+				INFOPLIST_FILE = TapOnEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		553742551E45B90D0048C59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5016F1A7E2449336BCF07834 /* Pods-TapOnEmergency.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TapOnEmergency/TapOnEmergency.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B7Z6AU5G4B;
+				INFOPLIST_FILE = TapOnEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		553742571E45B90D0048C59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67D9VA6NS6;
+				INFOPLIST_FILE = TapOnEmergencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapOnEmergency.app/TapOnEmergency";
+			};
+			name = Debug;
+		};
+		553742581E45B90D0048C59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67D9VA6NS6;
+				INFOPLIST_FILE = TapOnEmergencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapOnEmergency.app/TapOnEmergency";
+			};
+			name = Release;
+		};
+		5537425A1E45B90D0048C59A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 67D9VA6NS6;
+				INFOPLIST_FILE = TapOnEmergencyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapOnEmergency;
+			};
+			name = Debug;
+		};
+		5537425B1E45B90D0048C59A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 67D9VA6NS6;
+				INFOPLIST_FILE = TapOnEmergencyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TOE.TapOnEmergencyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapOnEmergency;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553742211E45B90C0048C59A /* Build configuration list for PBXProject "TapOnEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553742511E45B90D0048C59A /* Debug */,
+				553742521E45B90D0048C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553742531E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553742541E45B90D0048C59A /* Debug */,
+				553742551E45B90D0048C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553742561E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553742571E45B90D0048C59A /* Debug */,
+				553742581E45B90D0048C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553742591E45B90D0048C59A /* Build configuration list for PBXNativeTarget "TapOnEmergencyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5537425A1E45B90D0048C59A /* Debug */,
+				5537425B1E45B90D0048C59A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5537421E1E45B90C0048C59A /* Project object */;
+}
